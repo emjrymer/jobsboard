@@ -1,0 +1,44 @@
+// Place all the styles related to the jobs controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+body {
+  background: #a71b3e;
+  color: white;
+  font: 14pt Helvetica, Arial, sans-serif;
+  margin: 3% 2%;
+  width: 500px;
+}
+a {
+  color: #efaaca;
+  text-decoration: none;
+}
+
+p a {
+  border: 1px solid #fff;
+  padding: 10px;
+  border-radius: 2px;
+}
+
+input {
+  border: 1px solid #fff;
+  padding: 10px;
+  border-radius: 2px;
+  background-color: transparent;
+  display: block;
+  color: #fff;
+  letter-spacing: 1px;
+}
+
+label {
+  padding: 1% 0;
+  display: block;
+  font-weight: 100;
+  letter-spacing: 1px;
+}
+
+input[type='submit'] {
+  margin-top: 10px;
+  background-color: #fff;
+  color: #a71b3e;
+  font-weight: 600;
+}
